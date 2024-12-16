@@ -1,0 +1,10 @@
+sudo apt install python3-html2text
+sudo apt install python3-praw
+sudo apt install python3-prawcore
+sudo apt install python3-pandas
+To run: 
+
+#* * * * * /usr/bin/python3 /home/user/hourlyCopyToolboxToNewReddit-Master.py subredditName sub1-credentials >> /home/user/cron_log.txt 2>&1
+
+# to forward log to discord channel
+./forward_log.sh
